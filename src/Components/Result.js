@@ -52,10 +52,10 @@ const Result = (props) => {
 
     return (
         <div>
-            <Grid container justify='center' xs={12}>
+            <Grid container alignItems='center' justify='center' >
         {books.map((e, index) => {
            return <div>
-                <Grid item alignItems='center' xs={12}>
+                <Grid item alignItems='center' >
                     <Card className={classes.card} variant='outlined'> 
                         <p>{e.title}</p>
                         <p>{e.author}</p>

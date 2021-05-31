@@ -12,7 +12,6 @@ app.use(express.json());
 app.use(express.urlencoded());
 
 const k = process.env.NODE_ENV_GOOGLE_BOOKS_KEY;
-console.log(k);
 let u = 'https://www.googleapis.com/books/v1/volumes?';
 u += 'key=' + k;
 
