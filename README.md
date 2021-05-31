@@ -12,8 +12,8 @@ Charlie Glennon: cdg5be@virginia.edu
 
 ## Recommended packages
 
-material-ui
-express
-firebase-admin
-react-router-dom
+material-ui,
+express,
+firebase-admin,
+react-router-dom,
 body-parser
