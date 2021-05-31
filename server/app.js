@@ -20,10 +20,10 @@ app.get('/book', async (req, res) => {
         let i = u.indexOf('&q=');
         if ( i > -1){
             u = u.slice(0, i);
-            console.log(u);
+            //console.log(u);
         }
         u += '&q=' + encodeURIComponent(req.query.title);
-        console.log(req.query);
+        //console.log(req.query);
     
         axios.get(u)
               .then((r) => {
@@ -100,12 +100,12 @@ app.post('/library', async (req, res) => {
     title: req.body.title,
     id: req.body.id,
   });;
-  console.log('Added document with ID' + r.id);
+  console.log('Added document');
   res.send("posted"); 
 })
 
 app.delete('/library', async (req, res) => {
-  console.log(req.body.id);
+  //console.log(req.body.id);
   r = await db.collection('books').doc(req.body.id).delete();
 })
 

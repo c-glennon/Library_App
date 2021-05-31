@@ -35,7 +35,7 @@ const Result = (props) => {
               .then((res) => {
                 console.log(res);
                 if(res.data !== []){
-                    console.log(res.data);
+                    //console.log(res.data);
                     setBooks(res.data);
                 } 
                 else 

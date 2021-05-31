@@ -1,6 +1,6 @@
 ## Library App
 
-A Library application built using React and NodeJS that utilizes the Google Books API. The user can search for books and add them to their library. The purpose of this project was to built a functioning backend server in NodeJS using Express. 
+A Library application built using React and NodeJS that utilizes the Google Books API. The user can search for books and add them to their library. The purpose of this project was to built a functioning backend server in Node.js using Express. 
 
 ## Client
 
