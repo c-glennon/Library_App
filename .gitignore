@@ -24,4 +24,4 @@ yarn-error.log*
 
 server/.env
 server/library_app_key.json
-Contexts
+src/Contexts
